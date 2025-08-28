@@ -1,11 +1,13 @@
+import java.util.Scanner;
+import java.util.HashSet;
+import java.util.Set;
+
 public class SeguimientoInterfaceSet {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         SeguimientoInterfaceSet operaciones = new SeguimientoInterfaceSet();
-
-        // Set<T> resultadoUnion = operaciones.unir(setA, setB);
 
         scanner.close();
     }
